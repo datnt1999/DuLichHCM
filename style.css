@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* -------------------Variables-------------- */
+:root{
+    /* ----------Color----------- */
+    --green:#66EB73;
+    --blue: #649CD9;
+    --yellow:#FFED9E;
+    --orange:#F2AC42;
+    --red:#E16071;
+    /* ----------Font-Family----------- */
+    --font-roboto:'Roboto', sans-serif;
+    /* ---------linear-gradient-------- */
+    --bg-gradient:linear-gradient(to right,#1D976C,#93F9B9);
+    --bg-gradient-pinky:linear-gradient(to right,#DD5E89,#F7BB97);
+    --bg-gradient-stripe:linear-gradient(to right,#1FA2FF,#12D8FA,#A6FFCB);
+    /* ---------image-------- */
+    --bg-bg:url("./assets/image/bg_main.png");
+    --bg-img-1:url("./assets/image/img1.jpg");
+    --bg-img-2:url("./assets/image/img2.jpg");
+    --bg-img-3:url("./assets/image/img3.jpg");
+}
+/* -------------------Reset CSS-------------- */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
