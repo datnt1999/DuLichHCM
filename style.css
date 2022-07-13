@@ -263,7 +263,7 @@ ul{
 /* For large screen lg(1280px) */
 @media (min-width:1280px) {
     .container{
-        max-width: 1280px;
+        max-width: 1350px;
     }
     #nav{
         background: transparent !important;
@@ -278,6 +278,9 @@ ul{
     }
 }
 /* ------------------------Navigation-menu------------------ */
+.wrapper{
+    position: relative;
+}
 #nav{
     position: absolute;
     top: 0;
@@ -316,21 +319,21 @@ ul{
     max-height: 50vh !important;
 }
 /* ------------------------Navigation-menu------------------ */
+
 #site-main .banner-area{
     width: 100%;
-    position: relative;
     background: var(--bg-bg);
     background-repeat: no-repeat;
     background-position-x: right;
     z-index: -99;
 }
 #site-main .banner-area .banner-title{
-    height: 95vh;
-    padding-top: 16rem;
+    padding-left: 2rem;
+    padding-top: 12rem;
 }
 /* --------------------------Introduce Area------------------- */
 #site-main .introduce-area{
-    padding: 5em 0;
+    padding: 8em 0;
 }
 /* -------------------------Food Area Style-------------------- */
 #site-main .location-area > .grid{
